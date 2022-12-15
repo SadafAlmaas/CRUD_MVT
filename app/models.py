@@ -17,6 +17,8 @@ class Webpage(models.Model):
 
 class AccessRecords(models.Model):
     name=models.ForeignKey(Webpage,on_delete=models.CASCADE)
-    date=models.DateField()    
+    date=models.DateField()  
+
+      
 
     
